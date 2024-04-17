@@ -11,6 +11,8 @@ object martin {
 
 	method energia() 	{ return energia }
 	method despensa()	{ return despensa }
+	method tieneHambre() 	{ return tieneHambre }
+	method actividadDelDia() 	{ return actividadDelDia }
 	
 	method esFeliz() {
 			return self.energia()>80 || actividadDelDia >=2  && not tieneHambre
